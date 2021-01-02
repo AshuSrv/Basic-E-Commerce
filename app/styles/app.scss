@@ -1,0 +1,5 @@
+@import './homepage';
+//When we created file with _ we don't need to write .scss
+@import './product.scss';
+//When we created file without _ we need to write .scss
+@import './cart';
