@@ -26,7 +26,7 @@ export default class CartController extends Controller {
       const count = event.target.value;
     //   console.log(item.count,'----')
     if (count >= 0) {
-        item.count = ParseInt(count);
+        item.count = parseInt(count);
         // console.log(item.count,' -----if (count >= 0)-----')
     } else {
         item.count = 0;
